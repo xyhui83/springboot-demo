@@ -1,4 +1,4 @@
-FROM eviles/alpine-oracle-jdk8
+FROM hub.c.163.com/xbingo/jdk8
 VOLUME /tmp
 ADD demo2-0.0.1-SNAPSHOT.jar app.jar
 RUN sh -c 'touch /app.jar'
